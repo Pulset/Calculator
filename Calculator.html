@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="calculator.css">
+		<script  type="text/javascript" src="calculator.js"></script>
+	</head>
+	<body>
+		<div class="calculator">
+			<div class="display">
+				<input id="show" type="text" value="0" >
+				<input id="result" type="text" >
+			</div>
+			<div class="input">
+				<div class="input1">
+					<div class="data" ><button id="data7" onclick="send(7)">7</button></div>
+					<div class="data" ><button id="data8" onclick="send(8)">8</button></div>
+					<div class="data" ><button id="data9" onclick="send(9)">9</button></div>
+					<div class="data" ><button id="datac" onclick="send('c')">/</button></div>
+					<div class="data"><button id="data4" onclick="send(4)">4</button></div>
+					<div class="data" ><button id="data5" onclick="send(5)">5</button></div>
+					<div class="data"><button id="data6" onclick="send(6)">6</button></div>
+					<div class="data" ><button id="data*" onclick="send('*')">*</button></div>
+					<div class="data" ><button id="data1" onclick="send(1)">1</button></div>
+					<div class="data" ><button id="data2" onclick="send(2)">2</button></div>
+					<div class="data" ><button id="data3" onclick="send(3)">3</button></div>
+					<div class="data" ><button id="dataj" onclick="send('j')">-</button></div>
+					<div class="data" ><button id="data0" onclick="send(0)" style="width:78px">0</button></div>
+					<div class="data" ><button id="datad" onclick="send('d')">.</button></div>
+					<div class="data" ><button id="data+" onclick="send('+')">+</button></div>
+				</div>
+				<div class="input2">
+					<div class="dataf" ><button onclick="back()">back</button></div>
+					<div class="dataf" ><button onclick="clear_data()">C</button></div>
+					<div class="dataf" ><button onclick="output()">=</button></div>
+				</div>
+			</div>
+			
+		</div>
+</body>
+</html>	
